@@ -7,7 +7,7 @@ cask "network-status-bar" do
   desc "Menu bar tool for monitoring real-time network traffic per process"
   homepage "https://github.com/cnfatal/NetworkStatusBar"
 
-  depends_on macos: :monterey
+  depends_on macos: :sonoma
 
   app "NetworkStatusBar.app"
 
